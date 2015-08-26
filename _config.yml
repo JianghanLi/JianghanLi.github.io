@@ -19,8 +19,11 @@ url: http://wbsedu.github.io
 rss_url: /pages/atom.xml
 
 # avatar头像及Favicon
-avatar: https://wbsedu.guthub.io/wbsedu.github.io/images/head_pic.PNG
-favicon: https://wbsedu.guthub.io/wbsedu.github.io/images/head_pic.PNG
+avatar: /images/head_pic.PNG 
+favicon: /images/head_pic.PNG
+
+# ![images](/images/head_pic.PNG)
+
 
 # google analytics 设置
 ga:
