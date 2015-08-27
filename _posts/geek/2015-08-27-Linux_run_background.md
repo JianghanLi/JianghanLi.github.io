@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 在linux中如何让程序在后台可靠工作
-category：Geek
-comments： true
+category: Geek
+comments: true
 ---
 
 ##让进程在后台可靠运行
