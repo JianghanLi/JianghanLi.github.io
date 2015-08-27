@@ -10,6 +10,7 @@ author:
   name: Wang Baosheng
   email: wbsedu@outlook.com
   link: http://wbsedu.github.io
+  weibo: http://weibo.com
   github: http://github.com/wbsedu
 
 # 站点信息
@@ -17,7 +18,7 @@ title: 博客
 description: 博客
 url: http://wbsedu.github.io
 rss_url: /pages/atom.xml
-
+  
 # avatar头像及Favicon
 avatar: /images/head_pic.PNG 
 favicon: /images/head_pic.PNG
