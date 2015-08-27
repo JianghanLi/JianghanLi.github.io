@@ -1,5 +1,11 @@
 ---
 layout: post
+title: Geeklinux
+category: Geek
+comments: true
+---
+---
+layout: post
 title: 在linux中如何让程序在后台可靠工作
 category：Geek
 comments： true
