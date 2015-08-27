@@ -31,5 +31,5 @@ ga:
   url: 
 
 # disqus 设置
-disqus: true
+disqus: 
   shortname: wbsedu
