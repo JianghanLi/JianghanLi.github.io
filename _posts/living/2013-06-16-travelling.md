@@ -1,7 +1,7 @@
 ---
 layout: post
-title: living
-category： Living
+title: Living
+category: living
 comments: true
 ---
 
