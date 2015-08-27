@@ -1,3 +1,10 @@
+---
+layout: post
+title: living
+category： Living
+comments: true
+---
+
 ##生活杂记
 ---
 &#160; &#160; &#160; &#160;今天，A大学的上空晴空万里，高兴走入了这所处于海岸的大学。心里的杂陈污秽也好像被海风吹走了。
