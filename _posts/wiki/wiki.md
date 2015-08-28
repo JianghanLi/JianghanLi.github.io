@@ -1,13 +1,8 @@
 ---
-
 layout: post
-
-title: wiki
-
-category: wiki
-
-comments: false
-
+title: WIKI
+category: Wiki
+comments: true
 ---
 ### 网站使用说明
 #### 关于评论系统：

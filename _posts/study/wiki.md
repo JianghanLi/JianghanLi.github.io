@@ -1,13 +1,8 @@
 ---
-
 layout: post
-
-title: wiki
-
-category: wiki
-
-comments: false
-
+title: 大学生活杂记
+category: Living
+comments: true
 ---
 ### 网站使用说明
 #### 关于评论系统：
