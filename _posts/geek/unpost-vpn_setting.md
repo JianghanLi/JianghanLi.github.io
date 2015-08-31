@@ -10,6 +10,7 @@ comments: true
 	vps服务器（采用OpenVZ/KiwiVM)
     系统：centos7_x86-64
 实验步骤：
+
 +	检查服务器的**PPP**服务是否开启
 
 
@@ -25,6 +26,7 @@ comments: true
 	3. [root@localhost ~]# yum install iptables ppp pptpd
 
 注：1.2为了防止yum源出现错误，进行更新。3是安装简历虚拟专用网络的必要组件，如果提示没有**pptp**软件包，则应安装**epel**源扩展软件包。
+
 +	配置**pptp**
 
 
@@ -44,6 +46,7 @@ comments: true
 >	例如: username	pptpd	username	*
 
 则用户名为username，服务为pptpd，密码为username,** * **代表IP地址自由分配。
+
 +	修改内核参数
 
 
