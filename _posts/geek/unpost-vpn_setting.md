@@ -25,12 +25,12 @@ comments: true
 	2. [root@localhost ~]# yum update
 	3. [root@localhost ~]# yum install iptables ppp pptpd
 
-注：1.2为了防止yum源出现错误，进行更新。3是安装简历虚拟专用网络的必要组件，如果提示没有**pptp**软件包，则应安装**epel**源扩展软件包。
+注：1.2为了防止yum源出现错误，进行更新。3是安装建立虚拟专用网络的必要组件，如果提示没有**pptp**软件包，则应安装**epel**源扩展软件包。
 
 +	配置**pptp**
 
 
-	1.[root@localhost ~]# vi /etc/pptp.conf
+	1.[root@localhost ~]# vi /etc/pptpd.conf
  添加
  >	localip 192.168.1.1(VPS服务器的IP)
 		remoteip 19.16.0.8-19.16.0.24(给使用虚拟专用网络分配的IP)
