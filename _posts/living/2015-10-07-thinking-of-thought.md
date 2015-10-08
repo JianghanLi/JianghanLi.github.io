@@ -3,7 +3,7 @@ layout: post
 title: 只能写些文章来麻痹自己了
 category: living
 comments: false
-----
+---
 
 
 #### 我是怎么开始使用Linux？
