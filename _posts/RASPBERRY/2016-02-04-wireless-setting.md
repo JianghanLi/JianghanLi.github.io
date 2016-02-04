@@ -43,6 +43,7 @@ comments: true
     iface wlan0 inet dhcp
     wpa-ssid "******"
     wpa-psk "******"
+    
 成功后执行
 	
     sudo ifdown wlan0
