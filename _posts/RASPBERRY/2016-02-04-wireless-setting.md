@@ -50,4 +50,4 @@ comments: true
     sudo ifup wlan0
 	ifcongfig
     
-可以看到wla0已经有了IP地址    
+可以看到wlan0已经有了IP地址,成功连接上了无限网络。
