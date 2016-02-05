@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 大学生活杂记
-category: Living
+category: living
 comments: true
 ---
 #### 仅此纪念我的大一生活
