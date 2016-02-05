@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  
+title:  ssh客户端频繁断线~
 category: Geek
 comments: true
 ---
-### shh客户端频繁断线~
+
 入手了一台腾讯服务器（一元每月~~着实良心了一次）安装了ubuntu14.04,在windows下使用Putty用ssh连接服务器。
 > 这是一个悲伤的故事
 > 正在运行sudo apt-get upgrade -y，断线了。
@@ -20,4 +20,5 @@ comments: true
         ClientAliveInterval 60
         #最多次数
         ClientAliveCountMax 4
+        
 最多无响应时间允许60*4=240s
