@@ -1,21 +1,16 @@
 树莓派是物联网的雏形
 or
 树莓派是阻碍迈进云服务计算时代的糟粕
+著作权归作者所有。
+商业转载请联系作者获得授权，非商业转载请注明出处。
+作者：吴海波
+链接：https://www.zhihu.com/question/26840203/answer/34294146
+来源：知乎
 
+“Big Data is like teenage sex: Everyone talks about it, nobody really knows how to do it, everyone thinks everyone else is doing it, so everyone claims they are doing it too”
 + 树莓派温度查看
  CPU:	cat /sys/class/thermal/thermal_zone0/temp
 
-+ 树莓派的电源策略：
-如果一段时间不使用，raspberry会对无线网络休眠。
-首先查看8192cu的网卡是否启用了电源管理
-cat /sys/module/8192cu/parameters/rtw_power_mgnt
-结果为1表示启用
-禁用电源管理
-sudo nano /etc/modprobe.d/8192cu.conf
-加入以下内容，然后按Ctrl+x和y保存退出
- Disable power saving
-options 8192cu rtw_power_mgnt=0
-然后sudo reboot重启生效
 
 + 树莓派2使用usb无线网卡时，有时ssh会自动断开，这种情况可能是由于启用了电源管理功能，
 无线网卡在空闲时会自动关闭。
