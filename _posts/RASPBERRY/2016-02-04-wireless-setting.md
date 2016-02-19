@@ -8,19 +8,19 @@ comments: true
 
 	Environment:Raspberry2B(debian jessie)
 检查无线网卡是否工作
-	
+
     lsusb
 	ifconfig
-    
+
 编辑/etc/network/interfaces文件：
 
 	auto lo
     iface lo inet loopback
-    
+
     auto eth0
     allow-hotplug eth0
     iface eth0 inet manual
-    
+
     auto wlan0
     iface wlan0 inet manual
     wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
@@ -43,11 +43,11 @@ comments: true
     iface wlan0 inet dhcp
     wpa-ssid "******"
     wpa-psk "******"
-    
+
 成功后执行
-	
+
     sudo ifdown wlan0
     sudo ifup wlan0
 	ifcongfig
-    
+
 可以看到wlan0已经有了IP地址,成功连接上了无限网络。
